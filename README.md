@@ -115,13 +115,11 @@ cd gps-toll-system
    ## Contributing
 * Contributions are welcome! Please create an issue or submit a pull request with any improvements.
 
-  ## Report
-
-* Download the full project report [here](https://your-report-link.com).
+ 
 
   ## Report
 
-*Download the full project report [here](https://drive.google.com/file/d/14BLVPoxszy1Y2yyVz72wPpGHOc8g1Alr/view?usp=drivesdk).
+* Download the full project report [here](https://drive.google.com/file/d/14BLVPoxszy1Y2yyVz72wPpGHOc8g1Alr/view?usp=drivesdk).
 
-developed by Margaret Sheela. c
+* developed by Margaret Sheela. c
 For support or inquiries, please contact [margaretsheelac.ec2022@vemanait.edu.in].

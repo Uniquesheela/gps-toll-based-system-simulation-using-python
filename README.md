@@ -1,5 +1,5 @@
 # gps-toll-based-system-simulation-using-python
-## imported libraries used for different functionalities:
+### imported libraries used for different functionalities:
 --requests: to make HTTP requests.
 --folium: for generating maps.
 --datetime: for handling date and time.

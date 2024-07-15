@@ -55,6 +55,15 @@ matplotlib" > requirements.txt
 * Clone the repository: code- git clone https://github.com/yourusername/gps-toll-system.git
 cd gps-toll-system
 * Install dependencies: code- pip install -r requirements.txt
+# Run the main script: code- python gps_toll_system.py
+# Interact with the command-line interface:
+* Add vehicles
+* Simulate passages
+* View transaction history
+* View current location on map
+* Query the number of vehicles on the toll road
+* Check speed limits
+
 ### imported libraries used for different functionalities:
 * -[requests: to make HTTP requests.]
 * -[folium: for generating maps.]
@@ -100,3 +109,19 @@ cd gps-toll-system
 * The create_toll_zones method defines toll zones as polygons.
 * The calculate_toll method calculates the toll fee based on the vehicle type, distance, peak hour, and frequent user status.
 * The simulate_passage method simulates a
+
+
+
+   ## Contributing
+* Contributions are welcome! Please create an issue or submit a pull request with any improvements.
+
+  ## Report
+
+* Download the full project report [here](https://your-report-link.com).
+
+  ## Report
+
+*Download the full project report [here](https://drive.google.com/file/d/14BLVPoxszy1Y2yyVz72wPpGHOc8g1Alr/view?usp=drivesdk).
+
+developed by Margaret Sheela. c
+For support or inquiries, please contact [margaretsheelac.ec2022@vemanait.edu.in].

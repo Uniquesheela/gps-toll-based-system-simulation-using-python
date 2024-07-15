@@ -75,3 +75,28 @@ cd gps-toll-system
 * requests.get('https://ipinfo.io'): makes an HTTP GET request to fetch location data.
 * The response is parsed to extract latitude, longitude, city, and state.
 * If an error occurs, it prints the error and returns None.
+
+### Function: gps_locator
+* This function creates an HTML file with a map showing the current location.
+* It initializes a folium.Map object centered at (0, 0) with zoom level 2.
+* It calls locationCoordinates to get the current location.
+* If the location is valid, it adds a marker on the map.
+* The map is saved as an HTML file named with the current date.
+* If any error occurs, it prints the error and returns None.
+### Function: haversine
+ * This function calculates the great-circle distance between two points on the Earth using the Haversine formula.
+* The latitude and longitude are converted to radians.
+* It computes the differences in latitude and longitude.
+* It applies the Haversine formula to compute the distance in kilometers.
+
+  ### Class: Vehicle
+*  The Vehicle class represents a vehicle in the simulation.
+* The __init__ method initializes the vehicle with its type, license plate, start and end coordinates, and the simulation environment.
+* The move method simulates the vehicle's movement by calculating the travel time and updating the vehicle's location once the travel time has passed.
+
+### Class: TollSystem
+* The TollSystem class handles toll operations and vehicle management.
+* The __init__ method initializes the system with toll rates, multipliers, discount thresholds, transactions, vehicles, toll zones, and emergency threshold.
+* The create_toll_zones method defines toll zones as polygons.
+* The calculate_toll method calculates the toll fee based on the vehicle type, distance, peak hour, and frequent user status.
+* The simulate_passage method simulates a

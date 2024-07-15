@@ -10,8 +10,8 @@ Simulation: Uses simpy to simulate vehicle movements and interactions.
 Command-line interface: Allows users to interact with the system easily.
 Transaction logging: Records all transactions and provides a history log.
 ### imported libraries used for different functionalities:
---requests: to make HTTP requests.
---folium: for generating maps.
+--[requests: to make HTTP requests.]
+--[folium: for generating maps.]
 --datetime: for handling date and time.
 --time: for handling time-related tasks.
 --math: for mathematical calculations.

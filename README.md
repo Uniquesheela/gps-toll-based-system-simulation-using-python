@@ -11,8 +11,8 @@ The GPS Toll System is a modern toll collection solution that uses GPS data to t
 * Transaction logging: Records all transactions and provides a history log.
 
 ### Requirements
-*Python 3.12 or any version in general python 3.x
-*Libraries needed to be installed : requests, folium, datetime, math, simpy, pandas, geopandas, shapely, geopy, selenium, webdriver_manager, matplotlib
+* Python 3.12 or any version in general python 3.x
+* Libraries needed to be installed : requests, folium, datetime, math, simpy, pandas, geopandas, shapely, geopy, selenium, webdriver_manager, matplotlib
 # Commands to install all these libraries:
 *pip install requests
 *pip install simpy

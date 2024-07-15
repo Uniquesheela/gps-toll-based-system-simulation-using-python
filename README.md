@@ -18,7 +18,8 @@ The GPS Toll System is a modern toll collection solution that uses GPS data to t
 * pip install simpy
 * and similarly install other necessary libraries with the same format
 (or)
-*#Create a requirements.txt file and list all the necessary libraries in that file in the below format:
+* #Create a requirements.txt file and list all the necessary libraries in that file in the below format:
+*
 echo "requests
 folium
 datetime
@@ -30,12 +31,13 @@ geopy
 selenium
 webdriver_manager
 matplotlib" > requirements.txt
-#command to install all the libraries in the requirement.txt file
-pip install -r requirements.txt
+*
+* ##command to install all the libraries in the requirement.txt file
+* pip install -r requirements.txt
 
 ## to run all these commands ensure you create your own environment terminal 
-and create a folder called admin under users in the path of your python application
-and save the typed python program file inside the admin folder with any file name
+* and create a folder called admin under users in the path of your python application
+* and save the typed python program file inside the admin folder with any file name
 ## steps to create your environment terminal
 -- open terminal of your python version
 -- press windows symbol+R
